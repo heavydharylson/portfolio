@@ -11,6 +11,10 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    z-index: 1000; 
+    padding-top: 10px; 
 }
 
 nav ul{
@@ -36,9 +40,9 @@ a:hover{
 }
 
 main {
-    padding: 40px 20px; /* Adds space inside the main content area [7] */
-    max-width: 1000px;  /* Keeps content readable on wide screens */
-    margin: 0 auto;     /* Centers the main container */
+   padding: 100px 20px 40px 20px; 
+   max-width: 1000px;  
+   margin: 0 auto;  
 }
 
 section {

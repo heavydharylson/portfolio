@@ -11,6 +11,10 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    z-index: 1000;
+    
 }
 
 nav ul{
@@ -35,6 +39,77 @@ a:hover{
     color: #007bff;
 }
 
+main {
+   padding: 100px 20px 40px 20px; 
+   max-width: 1000px;  
+   margin: 0 auto;  
+}
+main h2 {
+    color: #007bff; 
+    border-bottom: 2px solid #eee; 
+    padding-bottom: 10px;
+    text-align: center;
+    scroll-margin-top: 80px; 
+}
+
+main p {
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+fieldset {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    background-color: #efefef;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #333;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+label {
+    display: block; 
+    margin-top: 10px; 
+}
+
+input, textarea {
+    display: block;         /* Forces inputs to start on new lines [19] */
+    padding: 10px;
+    margin-top: 5px;        /* Spacing between label and input [18] */
+    border: 1px solid #ccc;
+    border-radius: 4px;     /* Professional rounded appearance [21] */
+    box-sizing: border-box; /* Ensures padding doesn't increase width [22] */
+}
+
+.form-actions {
+    text-align: center;     /* Horizontal centering for inline-level buttons [15] */
+    margin-top: 20px;
+    width: 100%;            /* Ensures the container spans the full width of its parent [16] */
+}
+
+button[type="submit"] {
+    background-color: #4CAF50; /* Green submit button [23] */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;        /* Visual feedback that it's clickable [23] */
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049; /* Slightly darker green on hover [23] */
+}
 
 footer {
   background-color: #f4f4f4; 
