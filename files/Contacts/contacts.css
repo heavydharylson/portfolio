@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    list-style: none;
+    justify-content: center;
+}
+
+nav li{
+    margin: 0 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #007bff;
+}
+
+
+footer {
+  background-color: #f4f4f4; 
+  padding: 15px;            
+  text-align: center;        
+}
+
+footer img {
+  width: 32px; /* Set a standard icon size */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+.social-icons a {
+    margin: 0 10px; 
+}
+
+.social-icons a:hover img {
+    opacity: 0.7;            /* Makes the icon slightly transparent */
+    filter: brightness(1.2); /* Makes the icon 20% brighter */
+}
