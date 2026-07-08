@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me - My Portfolio</title>
+    <!-- Linking your external stylesheet -->
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contacts.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Get in Touch</h2>
+            <p>If you have any questions or would like to work together, please fill out the form below.</p>
+
+            <!-- Form handles structure and meaning; action defines data destination -->
+            <form action="/submit-inquiry" method="POST">
+                <fieldset>
+                    <legend>Contact Inquiry Form</legend>
+
+                    <!-- Explicit association: 'for' matches 'id' -->
+                    <label for="user-name">Full Name:</label>
+                    <input type="text" id="user-name" name="full_name" required placeholder="Enter your name">
+
+                    <label for="user-email">Email Address:</label>
+                    <input type="email" id="user-email" name="user_email" required placeholder="example@email.com">
+
+                    <label for="user-message">Message:</label>
+                    <!-- Textarea for multi-line user feedback -->
+                    <textarea id="user-message" name="user_message" rows="5" cols="40" required placeholder="How can I help you?"></textarea>
+
+                    <!-- Submit button to trigger the form action -->
+                    <button type="submit">Send Message</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+   <footer id="contact-info">
+        <h2>Contact Us</h2>
+        <p>Phone: <a href="tel:+639270010379">+63 927 001 0379</a></p>
+        <p>Email: <a href="mailto:dharylcudiamat@gmail.com">dharylcudiamat@gmail.com</a> | <a href="mailto:cudiamatdharyl@gmail.com">cudiamatdharyl@gmail.com</a></p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/dharylcudiamat/" target="_blank" rel="noopener noreferrer">
+            <img src="../images/icons/facebook-icon.svg" alt="Facebook" />
+          </a>
+          <a href="https://www.instagram.com/ebiderisol/" target="_blank" rel="noopener noreferrer">
+            <img src="../images/icons/instagram-icon.svg" alt="Instagram" />
+          </a>
+          <a href="https://github.com/heavydharylson" target="_blank" rel="noopener noreferrer">
+            <img src="../images/icons/github-icon.svg" alt="GitHub" />
+          </a>
+        </div>
+        <p>&copy; 2026 Design Cuts. All rights reserved.</p>  
+    </footer>
+</body>
+</html>
