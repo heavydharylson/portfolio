@@ -1,126 +1,35 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    font-weight: bold;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    z-index: 1000; 
-    padding-top: 10px; 
-}
-
-nav ul{
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    list-style: none;
-    justify-content: center;
-}
-
-nav li{
-    margin: 0 10px;
-}
-
-a{
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-}
-
-a:hover{
-    color: #007bff;
-}
-
 main {
-   padding: 100px 20px 40px 20px; 
-   max-width: 1000px;  
-   margin: 0 auto;  
+  padding: 100px 20px 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
-
 section {
-    margin-bottom: 50px; /* Separates the "About," "Projects," and "Skills" sections [6, 7] */
-}
-
-h1 {
-    color: #333;
-    font-size: 32px; /* Sets a dominant size for the main title [10, 11] */
-    margin-bottom: 20px;
-}
-
-h2 {
-    color: #007bff; /* Consistent with your navigation hover color */
-    border-bottom: 2px solid #eee; /* Adds a subtle separator line */
-    padding-bottom: 10px;
-}
-
-p {
-    font-size: 16px;    /* Industry standard body text size [1, 11] */
-    line-height: 1.6;  /* Adds vertical spacing between lines for readability [1, 9] */
-    color: #555;
+  margin-bottom: 50px;
 }
 
 figure {
-    margin: 20px 0;
-    text-align: center; /* Centers the image and caption [6] */
+  margin: 20px 0;
+  text-align: center;
 }
-
 figure img {
-    max-width: 100%;    /* Ensures the image scales down on mobile devices [12] */
-    height: auto;
-    border-radius: 8px; /* Adds modern rounded corners [15] */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds a soft shadow effect [13, 14] */
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-
 figcaption {
-    margin-top: 10px;
-    font-style: italic; /* Visually separates the description from the image [16] */
-    color: #777;
+  margin-top: 10px;
+  font-style: italic;
+  color: #777;
 }
 
 dt {
-    font-weight: bold; /* Highlights the technical skill name [20] */
-    color: #333;
-    margin-top: 15px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 15px;
 }
-
 dd {
-    margin-left: 20px; /* Ensures clear visual indentation [17] */
-    color: #666;
-    padding: 5px 0;
-}
-
-footer {
-  background-color: #f4f4f4; 
-  padding: 15px;            
-  text-align: center;        
-}
-
-footer img {
-  width: 32px; /* Set a standard icon size */
-  height: auto; /* Maintain the aspect ratio */
-}
-
-.social-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-    gap: 5px;
-}
-
-.social-icons a {
-    margin: 0 10px; 
-}
-
-.social-icons a:hover img {
-    opacity: 0.7;            /* Makes the icon slightly transparent */
-    filter: brightness(1.2); /* Makes the icon 20% brighter */
+  margin-left: 20px;
+  color: #666;
+  padding: 5px 0;
 }
