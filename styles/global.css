@@ -84,3 +84,13 @@ footer img {
     padding: 80px 10px;
   }
 }
+
+.wip {
+  text-align: center;
+  padding: 4rem 1rem;
+  color: var(--color-muted, #666);
+}
+.wip h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
