@@ -58,6 +58,13 @@ dd {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.service-card img {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 15px auto;
+  display: block;
+}
+
 .service-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0,0,0,0.1);
