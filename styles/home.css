@@ -61,7 +61,8 @@ dd {
 .service-card img {
   width: 80px;
   height: 80px;
-  margin: 0 auto 15px auto;
+  margin: 0 auto;
+  object-fit: contain;  
   display: block;
 }
 
